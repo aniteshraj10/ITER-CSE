@@ -1,11 +1,4 @@
-/*
- *Name : Anitesh Raj
- *Registration No. : 2041018007
- *Semester : 1
- *Branch : CSE
- *Section : A
- *Problem Description : To print some message
- */
+
 public class A1Q1 {
 
 	public static void main(String[] args) {
