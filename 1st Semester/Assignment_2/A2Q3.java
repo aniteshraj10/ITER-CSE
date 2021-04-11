@@ -9,22 +9,21 @@
 
 import java.util.Scanner;
 
-public class A2Q1 {
+public class A2Q3 {
 
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enter celcius value:");
-		double celcius=sc.nextDouble();
+		System.out.print("Enter a value for feet:");
+		double feet = sc.nextDouble();
 		
-		double farenheit=(9.0/5)*celcius+32;
+		double meter = feet * 0.305;
 		
-		System.out.println("Celcius = " + celcius);
-		System.out.println("Farenheit = " + farenheit);
+		System.out.println(feet + " feet is " + meter + " meters.");
 		
 		sc.close();
-		
+
 	}
 
 }
